@@ -4,7 +4,9 @@
     padding: 0;
 }
 body {
-    background-color: #F9B203;
+    // background-color: #F9B203;
+    background: rgb(219,182,86);
+    background: linear-gradient(0deg, rgba(219,182,86,1) 0%, rgba(249,178,3,1) 62%);    
     font-family: 'Open Sans', sans-serif;
     margin: auto;
 }
