@@ -1,15 +1,12 @@
 
-.timeline__card {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 .about__card__img {
-    background-image: url(../images/bg_magic_forest.jpg);
+
+    background-image: url(../images/bg__beach.jpg);
     background-repeat: no-repeat;
-    background-position-y: 78%;
+    background-position-y: center;
     background-position-x: center;
     background-size: cover;
+    border: 2px solid #000;
     padding: 20px;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -19,14 +16,15 @@
     img {
         box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 5px, rgba(0, 0, 0, 0.5) 0px 5px 5px 5px;
         border-radius: 100% 100% 0% 0%;
+        border: 1px solid #000;
         width: 320px;
         height: auto;
     }
 
     &__under {
+        background-image: url(../images/bg_magic_forest.jpg);
         margin-top: 0px;
-        background-image: url(../images/bg__beach.jpg);
-        background-position-y: center;
+        background-position-y: 78%;
         background-position-x: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -38,27 +36,32 @@
     }
 }
 
+.timeline__card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .about__card__left {
     display: flex;
     justify-content: center;
     align-items: center;
 
     &__1 {
-        background-image: url(../images/left_about_1.png);
+        background-image: url(../images/left_about_1_bgclr.png);
         max-width: 500px;
         width: 100%;
         min-height: 418px;
         height: 100%;
     }
     &__2 {
-        background-image: url(../images/left_about.png);
+        background-image: url(../images/left_about_bgclr.png);
         max-width: 500px;
         width: 100%;
         min-height: 469px;
         height: 100%;
         p {
             margin-bottom: 20px;
-
         }
     }
 
@@ -74,7 +77,7 @@
     align-items: center;
 
     &__1 {
-        background-image: url(../images/right_about_1.png);
+        background-image: url(../images/right_about_1_bgclr.png);
         max-width: 500px;
         width: 100%;
         min-height: 418px;
@@ -82,7 +85,7 @@
         
     }
     &__2 {
-        background-image: url(../images/right_about.png);
+        background-image: url(../images/right_about_bgclr.png);
         max-width: 500px;
         width: 100%;
         min-height: 469px;
@@ -90,8 +93,6 @@
 
         p {
             margin-bottom: 20px;
-
-
         }
     }
 
